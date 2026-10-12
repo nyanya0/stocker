@@ -1,0 +1,17 @@
+# dependencies / build output
+node_modules/
+dist/
+target/
+
+# secrets & local config - never commit these
+.env
+.env.local
+*.env.production
+application-local.properties
+
+# editors / OS
+.idea/
+.vscode/
+*.iml
+.DS_Store
+Thumbs.db
